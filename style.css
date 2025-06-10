@@ -1,0 +1,91 @@
+/* NOTE: Ideas that I don't know how to implement
+/* @media { */
+/* 	screen always on switch (cook mode)*/
+/* } */
+
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #123412;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	margin: 0px 10px 0px 10px;
+}
+
+.nav {
+	max-width: 500px;
+	margin: 15px auto;
+}
+
+.nav-item {
+	color: white;
+	padding: 5px 20px 5px 20px;
+	margin: 0;
+	border: 3px solid transparent;
+	/* text-align: center; */
+}
+
+.nav-item:hover {
+	border: 3px solid plum;
+}
+
+.title-box {
+	background: plum;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.title {
+	text-align: center;
+}
+
+.item-box {
+	background: plum;
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.item-list {
+	list-style-type: none;
+	padding: 10px 0px 10px 0px;
+	margin: 0;
+	width: 100%;
+}
+
+.item {
+	text-align: center;
+	font-weight: bold;
+	/* padding: 10px; */
+	width: 100%;
+}
+
+.item-link {
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	padding: 10px;
+	border: 3px solid transparent;
+}
+
+.desc-box {
+	margin: 0 20px;
+}
+
+.img-cap {
+	font-style: italic;
+	text-align: center;
+}
+
+a:hover {
+	/* background-color: #123412; */
+	/* color: white; */
+	border: 3px solid #123412;
+}
